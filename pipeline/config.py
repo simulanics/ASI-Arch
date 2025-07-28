@@ -23,7 +23,7 @@ class Config:
     MAX_RETRY_ATTEMPTS: int = 10
     
     # RAG service URL
-    RAG: str = "your rag url"
+    RAG: str = "http://172.29.57.33:13142/"
     
     # Database URL
-    DATABASE: str = "your database url"
+    DATABASE: str = "http://172.29.57.33:13142/"

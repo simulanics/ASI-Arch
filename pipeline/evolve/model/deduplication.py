@@ -111,6 +111,6 @@ deduplication = Agent(
 - **Breakthrough Potential**: Create code with clear pathways to significant performance improvements through novel mechanisms""",
     
     output_type=DeduplicationOutput,
-    model='o3',
+    model='deepseek-r1:32b',
     tools=[read_code_file, write_code_file]
 )

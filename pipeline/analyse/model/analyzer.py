@@ -114,6 +114,6 @@ Remember: Your goal is to understand the relationship between architectural desi
 
 """,
     output_type=AnalyzerOutput,
-    model='o3',
+    model='deepseek-r1:32b',
     tools=[read_code_file]
 )
