@@ -1,10 +1,10 @@
 class Config:
     """Configuration settings for the experiment."""
     # Target file
-    SOURCE_FILE: str = "evolve file"
+    SOURCE_FILE: str = "GateFlooredResNet.py"
     
     # Training script
-    BASH_SCRIPT: str = "your training script"
+    BASH_SCRIPT: str = "run_trainer.sh"
     
     # Experiment results
     RESULT_FILE: str = "./files/analysis/loss.csv"
